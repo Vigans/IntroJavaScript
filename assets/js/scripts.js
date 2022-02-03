@@ -10,10 +10,11 @@ function increment() {
         document.getElementById("currentNumber").innerHTML++;
         currentNumber = document.getElementById("currentNumber").innerHTML
     }
-    console.log(currentNumber);
+
     if (currentNumber > 0) {
         document.getElementById("currentNumber").style.color = "Green";
     }
+    
     if (currentNumber == 0) {
         document.getElementById("currentNumber").style.color = "Black";
     }
@@ -25,10 +26,11 @@ function decrement() {
         document.getElementById("currentNumber").innerHTML--;
         currentNumber = document.getElementById("currentNumber").innerHTML
     }
-    console.log(currentNumber);
+
     if (currentNumber < 0) {
         document.getElementById("currentNumber").style.color = "red";
     }
+    
     if (currentNumber == 0) {
         document.getElementById("currentNumber").style.color = "Black";
     }
