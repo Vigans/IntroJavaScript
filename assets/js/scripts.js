@@ -1,7 +1,7 @@
 const adc = document.getElementById("add");
 const sub = document.getElementById("sub");
 
-add.addEventListener("click", increment);
+adc.addEventListener("click", increment);
 sub.addEventListener("click", decrement);
 
 function increment() {
